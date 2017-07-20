@@ -1,6 +1,6 @@
 # OpenAddress HashMap
 
-####This project provides HashMap with OpenAddress collission solving
+#### This project provides HashMap with OpenAddress collission solving
 
 I create interface SimpleMap<Integer, Long>  with three main methods - 'get', 'put', 'size'
 and create three implementatoins:
@@ -27,7 +27,7 @@ In this tests I used three types of input data:
 
 Here the test results for 10k, 100k, 1m, 10m keys 
 
-####Random Tests : 
+#### Random Tests : 
 
 + FixSize Put 10000 : 8 
 + FixSize Get 10000 : 4 
@@ -54,7 +54,7 @@ Here the test results for 10k, 100k, 1m, 10m keys
 + Standard Put 10000000 : 1684 
 + Standard Get 10000000 : 2913 
 
-####Sequential Tests : 
+#### Sequential Tests : 
 
 + FixSize Put 10000 : 1
 + FixSize Get 10000 : 1
@@ -81,7 +81,7 @@ Here the test results for 10k, 100k, 1m, 10m keys
 + Standard Put 10000000 : 646
 + Standard Get 10000000 : 2890
 
-####PowerOf2 Tests : 
+#### PowerOf2 Tests : 
 
 FixSize  : 42
 Resizable  : 16
