@@ -89,5 +89,5 @@ Here the test results for 10k, 100k, 1m, 10m keys
 
 +For FixeSize -  HashMapOpenAddressFixSize I always used max 10m initialLength
 
-+We can see good performance comparably to java.util.HashMap in 'Power of two' tests,
++We can see good performance comparably to java.util.HashMap in 'Power of two' tests
 and for Get operations
