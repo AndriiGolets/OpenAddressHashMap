@@ -83,11 +83,11 @@ Here the test results for 10k, 100k, 1m, 10m keys
 
 #### PowerOf2 Tests : 
 
-+FixSize  : 42
-+Resizable  : 16
-+Standard  : 52
++ FixSize  : 42
++ Resizable  : 16
++ Standard  : 52
 
-+For FixeSize -  HashMapOpenAddressFixSize I always used max 10m initialLength
+For FixeSize -  HashMapOpenAddressFixSize I always used max 10m initialLength
 
-+We can see good performance comparably to java.util.HashMap in 'Power of two' tests
+We can see good performance comparably to java.util.HashMap in 'Power of two' tests
 and for Get operations
