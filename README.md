@@ -1,6 +1,6 @@
 # OpenAddress HashMap
 
-This project provides HashMap with OpenAddress collission solving
+####This project provides HashMap with OpenAddress collission solving
 
 I create interface SimpleMap<Integer, Long>  with three main methods - 'get', 'put', 'size'
 and create three implementatoins:
@@ -27,61 +27,61 @@ In this tests I used three types of input data:
 
 Here the test results for 10k, 100k, 1m, 10m keys 
 
-Random Tests : 
+####Random Tests : 
 
-FixSize Put 10000 : 8
-FixSize Get 10000 : 4
-FixSize Put 100000 : 32
-FixSize Get 100000 : 27
-FixSize Put 1000000 : 286
-FixSize Get 1000000 : 163
-FixSize Put 10000000 : 4314
-FixSize Get 10000000 : 4137
-Resizable Put 10000 : 5
-Resizable Get 10000 : 2
-Resizable Put 100000 : 24
-Resizable Get 100000 : 14
-Resizable Put 1000000 : 159
-Resizable Get 1000000 : 127
-Resizable Put 10000000 : 3841
-Resizable Get 10000000 : 1974
-Standard Put 10000 : 5
-Standard Get 10000 : 2
-Standard Put 100000 : 27
-Standard Get 100000 : 14
-Standard Put 1000000 : 133
-Standard Get 1000000 : 104
-Standard Put 10000000 : 1684
-Standard Get 10000000 : 2913
++ FixSize Put 10000 : 8 
++ FixSize Get 10000 : 4 
++ FixSize Put 100000 : 32 
++ FixSize Get 100000 : 27 
++ FixSize Put 1000000 : 286 
++ FixSize Get 1000000 : 163 
++ FixSize Put 10000000 : 4314 
++ FixSize Get 10000000 : 4137 
++ Resizable Put 10000 : 5 
++ Resizable Get 10000 : 2 
++ Resizable Put 100000 : 24 
++ Resizable Get 100000 : 14 
++ Resizable Put 1000000 : 159 
++ Resizable Get 1000000 : 127 
++ Resizable Put 10000000 : 3841 
++ Resizable Get 10000000 : 1974 
++ Standard Put 10000 : 5 
++ Standard Get 10000 : 2 
++ Standard Put 100000 : 27 
++ Standard Get 100000 : 14 
++ Standard Put 1000000 : 133 
++ Standard Get 1000000 : 104 
++ Standard Put 10000000 : 1684 
++ Standard Get 10000000 : 2913 
 
-Sequential Tests : 
+####Sequential Tests : 
 
-FixSize Put 10000 : 1
-FixSize Get 10000 : 1
-FixSize Put 100000 : 5
-FixSize Get 100000 : 3
-FixSize Put 1000000 : 24
-FixSize Get 1000000 : 10
-FixSize Put 10000000 : 3921
-FixSize Get 10000000 : 143
-Resizable Put 10000 : 1
-Resizable Get 10000 : 0
-Resizable Put 100000 : 7
-Resizable Get 100000 : 5
-Resizable Put 1000000 : 82
-Resizable Get 1000000 : 90
-Resizable Put 10000000 : 5320
-Resizable Get 10000000 : 169
-Standard Put 10000 : 1
-Standard Get 10000 : 0
-Standard Put 100000 : 4
-Standard Get 100000 : 2
-Standard Put 1000000 : 30
-Standard Get 1000000 : 7
-Standard Put 10000000 : 646
-Standard Get 10000000 : 2890
++ FixSize Put 10000 : 1
++ FixSize Get 10000 : 1
++ FixSize Put 100000 : 5
++ FixSize Get 100000 : 3
++ FixSize Put 1000000 : 24
++ FixSize Get 1000000 : 10
++ FixSize Put 10000000 : 3921
++ FixSize Get 10000000 : 143
++ Resizable Put 10000 : 1
++ Resizable Get 10000 : 0
++ Resizable Put 100000 : 7
++ Resizable Get 100000 : 5
++ Resizable Put 1000000 : 82
++ Resizable Get 1000000 : 90
++ Resizable Put 10000000 : 5320
++ Resizable Get 10000000 : 169
++ Standard Put 10000 : 1
++ Standard Get 10000 : 0
++ Standard Put 100000 : 4
++ Standard Get 100000 : 2
++ Standard Put 1000000 : 30
++ Standard Get 1000000 : 7
++ Standard Put 10000000 : 646
++ Standard Get 10000000 : 2890
 
-PowerOf2 Tests : 
+####PowerOf2 Tests : 
 
 FixSize  : 42
 Resizable  : 16
