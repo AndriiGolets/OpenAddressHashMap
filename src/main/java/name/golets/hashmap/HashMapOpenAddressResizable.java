@@ -71,7 +71,7 @@ public class HashMapOpenAddressResizable implements SimpleMap {
             size++;
         }
         table[index] = entry;
-        // System.out.println("index: " + index + " inserted key:" + key + " value:" + value);
+
     }
 
     private int linearProbing(Integer key, int hash) {
@@ -82,8 +82,6 @@ public class HashMapOpenAddressResizable implements SimpleMap {
         while (table[i] != null && !table[i].getKey().equals(key)) {
             i = i < tableLength - 1 ? ++i : 1;
             probesCounter++;
-         /*   System.out.println("i: " + i + " hash: " + hash + " cluster: " + probesCounter + " maxClusterSize: " + maxClusterSize
-                    + " size: " + size + " loadFactor: " + loadFactor + " tableLength:" + tableLength);*/
             if (probesCounter > maxClusterSize && size >= loadFactor * tableLength - 1) {
                 resize();
                 i = hash(key);
@@ -93,11 +91,10 @@ public class HashMapOpenAddressResizable implements SimpleMap {
     }
 
     private void resize() {
-        // print();
+
         HashEntry[] tempTable = table;
         size = 0;
         tableLength = (tableLength - 1) * 2 + 1;
-        // System.out.println("Resize Started : new TableLength " + tableLength);
         table = new HashEntry[tableLength];
         for (HashEntry hashEntry : tempTable) {
             if (hashEntry != null) {
